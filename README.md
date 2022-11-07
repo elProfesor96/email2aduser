@@ -15,7 +15,7 @@ Great for REDTEAM when you have a lot of emails from OSINT tools
 and need to get AD userformat for bruteforce or spraying or 
 connecting to external/internal services, etc.
 
-## How to
+## Manual use from git clone
 
 - Print help msg
 ```bash
@@ -31,6 +31,15 @@ chmod +x email2aduser.py
 ./email2aduser -f input_file.txt -o output_file.txt
 ```
 
+## Automatic install
 
+- From https://github.com/elProfesor96/email2aduser/releases , download .deb latest release
+```bash
+sudo apt update
+sudo apt install ./email2aduser-latest-release.deb
+```
+```bash
+email2aduser -h
+```
 
 
